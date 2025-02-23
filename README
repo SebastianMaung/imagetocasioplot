@@ -1,3 +1,4 @@
-I haven't tested this with my CG-50 (384x216?) or FX9750GIII (128x64) yet
+I haven't tested this with my CG-50 (384x216?) or FX-9750GIII (128x64?) yet, although I'll upload the image as soon as I find the darn cable
 Image from Tonari no Seki-kun
-It'll get converted to black and white, but you need to resize it yourself
+It'll get converted to black and white, but you need to resize it yourself to the correct dimensions.
+The black and white threshold is 127, and it should be adjusted to have the best contrast as possible (it's pretty good at this setting though, at least with Yokoi here)
