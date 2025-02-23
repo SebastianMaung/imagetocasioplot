@@ -43,12 +43,12 @@ for x in range(height):
         #print("Y: ", i)
         array3.append(array[x][i])
     array4.append(array3)
-print("HEIGHT", height, "WIDTH", width) #idk about this
-print(array4)
+print("WIDTH", width, "HEIGHT", height) 
+#print(array4)
 
 for i in range(5):
     print('\n')
-print(abc)
+#print(abc)
 code = []
 for i in range(len(abc)):
     casioplot.set_pixel(abc[i][1], abc[i][0], (0,0,0))
