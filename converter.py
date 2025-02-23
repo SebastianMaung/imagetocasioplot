@@ -45,20 +45,25 @@ for x in range(height):
     array4.append(array3)
 print("WIDTH", width, "HEIGHT", height) 
 #print(array4)
-
+thecoords = []
 for i in range(5):
     print('\n')
 #print(abc)
 code = []
 for i in range(len(abc)):
+    thecoords.append((abc[i][1], abc[i][0]))
     casioplot.set_pixel(abc[i][1], abc[i][0], (0,0,0))
-    code.append(f"casioplot.set_pixel({abc[i][1]}, {abc[i][0]}, {0,0,0})")
-print(code)
-
+    #code.append(f"casioplot.set_pixel({abc[i][1]}, {abc[i][0]}, {0,0,0})")
+#print(code)
+print(thecoords)
+code.append("c = "+str(thecoords))
 with open(script_path+"/code.py", 'w') as f:
     f.write("import casioplot" + '\n')
-    for i in range(len(code)):
-        f.write(code[i] + '\n')
+    f.write("c = "+str(thecoords) + '\n')
+    #for i in range(len(code)):
+    #    f.write(code[i] + '\n')
+    f.write("for i in range(len(c)):" + '\n')
+    f.write("    casioplot.set_pixel(c[i][0], c[i][1], (0,0,0))" + '\n')
     f.write("casioplot.show_screen()" + '\n')
 while True:
     casioplot.show_screen()
