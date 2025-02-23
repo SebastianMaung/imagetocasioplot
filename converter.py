@@ -26,8 +26,8 @@ for i, j in np.ndindex(image.shape[:-1]):
         array.append(array2)
         array2 = [] 
 red = (255, 0, 0)
-with open(script_path+"/a.txt", 'w') as f:
-    f.write(str(array))
+#with open(script_path+"/a.txt", 'w') as f:
+    #f.write(str(array))
 print("ok")
 abc = []
 print("done")
