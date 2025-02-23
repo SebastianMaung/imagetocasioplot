@@ -1,4 +1,4 @@
-Tested on my FX-9750GIII and CG-50
+Tested on my FX-9750GIII and CG-50 (see demo.jpg)
 I kept having memory issues on the FX-9750GIII, make sure to keep code.py under 16kb. The CG-50 handled my 132kb code.py file well, I didn't try above that.
 Image from Tonari no Seki-kun
 It'll get converted to black and white, but you need to resize it yourself to the correct dimensions.
