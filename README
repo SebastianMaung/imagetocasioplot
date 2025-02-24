@@ -3,7 +3,7 @@ I kept having memory issues on the FX-9750GIII, make sure to keep code.py under 
 Image from Tonari no Seki-kun
 It'll get converted to black and white, but you need to resize it yourself to the correct dimensions.
 The black and white threshold is 127, and it should be adjusted to have the best contrast as possible (it's pretty good at this setting though, at least with Yokoi here)
-Adding points to a list and going through them causes a pystack exhausted error for the CG50. I don't know how to fix it right now, so now it'll output two scripts: code1.py is the one with the points in a list. It is significantly lighter than code2.py in filesize, but could get you that error. code2.py is (relatively) huge, but won't give you any issues if you're at 16kb for the 9750GIII or 132kb for the CG50.
+Adding points to a list and going through them causes a pystack exhausted error for the CG50. I don't know how to fix it right now, so now it'll output two scripts: code1.py is the one with the points in a list. It is significantly lighter than code2.py in filesize, but could get you that error. code2.py is (relatively) huge, but won't give you any issues if you're at 16kb for the 9750GIII or 183kb for the CG50.
 TLDR use code2.py if it's less than 132kb (CG50) or 16kb (FX9750GIII). If your image is bigger, try code1.py but it probably won't work.
 FX9750GIII: 
 code1.py 4.3kb max?
