@@ -1,5 +1,5 @@
 Tested on my FX-9750GIII and FX-CG50 (see demo.jpg)
-I kept having memory issues on the FX-9750GIII, make sure to keep code.py under 16kb. The FX-CG50 handled my 132kb code.py file well, I didn't try above that.
+I kept having memory issues on the FX-9750GIII, make sure to keep code.py under 16kb. The FX-CG50 handled my 183.7kb code2.py file well, I didn't try above that.
 Image from Tonari no Seki-kun
 It'll get converted to black and white, but you need to resize it yourself to the correct dimensions.
 The black and white threshold is 127, and it should be adjusted to have the best contrast as possible (it's pretty good at this setting though, at least with Yokoi here)
