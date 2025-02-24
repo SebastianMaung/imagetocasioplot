@@ -57,7 +57,7 @@ for i in range(len(abc)):
 #print(code)
 print(thecoords)
 code.append("c = "+str(thecoords))
-with open(script_path+"/code.py", 'w') as f:
+with open(script_path+"/code1.py", 'w') as f:
     f.write("import casioplot" + '\n')
     f.write("c = "+str(thecoords) + '\n')
     #for i in range(len(code)):
@@ -65,5 +65,18 @@ with open(script_path+"/code.py", 'w') as f:
     f.write("for i in range(len(c)):" + '\n')
     f.write("    casioplot.set_pixel(c[i][0], c[i][1], (0,0,0))" + '\n')
     f.write("casioplot.show_screen()" + '\n')
+
+code = []
+for i in range(len(abc)):
+    casioplot.set_pixel(abc[i][1], abc[i][0], (0,0,0))
+    code.append(f"casioplot.set_pixel({abc[i][1]}, {abc[i][0]}, {0,0,0})")
+print(code)
+
+with open(script_path+"/code2.py", 'w') as f:
+    f.write("import casioplot" + '\n')
+    for i in range(len(code)):
+        f.write(code[i] + '\n')
+    f.write("casioplot.show_screen()" + '\n')
+
 while True:
     casioplot.show_screen()
